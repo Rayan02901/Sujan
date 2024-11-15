@@ -1,0 +1,568 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Sujan\\FlareTech\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\data\\applicationdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:data\\applicationdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\models\\planfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:models\\planfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\models\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:models\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\models\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:models\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\models\\baseperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:models\\baseperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\models\\audittrail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:models\\audittrail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\views\\plan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:views\\plan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\views\\invoice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:views\\invoice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\flaretech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:flaretech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\views\\subscription\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:views\\subscription\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Sujan\\FlareTech\\Migrations\\20241115125430_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241115125430_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Sujan\\FlareTech\\Migrations\\20241115114202_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241115114202_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Sujan\\FlareTech\\Migrations\\20241115114920_SeedFeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241115114920_SeedFeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\models\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:models\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\views\\subscription\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:views\\subscription\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\views\\plan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:views\\plan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|f:\\sujan\\flaretech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308803C7-7428-4534-9DD9-67D4D03BDA3B}|FlareTech.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbInitializer.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Data\\ApplicationDbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbInitializer.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Data\\ApplicationDbInitializer.cs",
+              "RelativeToolTip": "Data\\ApplicationDbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:31:46.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:30:22.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Plan.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Models\\Plan.cs",
+              "RelativeDocumentMoniker": "Models\\Plan.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Models\\Plan.cs",
+              "RelativeToolTip": "Models\\Plan.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:45:01.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlanFeature.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Models\\PlanFeature.cs",
+              "RelativeDocumentMoniker": "Models\\PlanFeature.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Models\\PlanFeature.cs",
+              "RelativeToolTip": "Models\\PlanFeature.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:46:00.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Models\\Subscription.cs",
+              "RelativeDocumentMoniker": "Models\\Subscription.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Models\\Subscription.cs",
+              "RelativeToolTip": "Models\\Subscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:44:28.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlanController.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Controllers\\PlanController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlanController.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Controllers\\PlanController.cs*",
+              "RelativeToolTip": "Controllers\\PlanController.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:28:59.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Models\\Invoice.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Models\\Invoice.cs",
+              "RelativeToolTip": "Models\\Invoice.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAzwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:46:57.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Feature.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Models\\Feature.cs",
+              "RelativeDocumentMoniker": "Models\\Feature.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Models\\Feature.cs",
+              "RelativeToolTip": "Models\\Feature.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:46:30.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:53:05.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\DashboardViewModel.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:05:22.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:44:00.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BasePerson.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Models\\BasePerson.cs",
+              "RelativeDocumentMoniker": "Models\\BasePerson.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Models\\BasePerson.cs",
+              "RelativeToolTip": "Models\\BasePerson.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:43:04.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuditTrail.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Models\\AuditTrail.cs",
+              "RelativeDocumentMoniker": "Models\\AuditTrail.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Models\\AuditTrail.cs",
+              "RelativeToolTip": "Models\\AuditTrail.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAzwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:47:28.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:43:34.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:02:10.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Views\\Plan\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Plan\\Create.cshtml",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Views\\Plan\\Create.cshtml",
+              "RelativeToolTip": "Views\\Plan\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T11:14:24.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T11:20:19.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Views\\Invoice\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Invoice\\Index.cshtml",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Views\\Invoice\\Index.cshtml",
+              "RelativeToolTip": "Views\\Invoice\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T12:43:44.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoiceController.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "Controllers\\InvoiceController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:32:13.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FlareTech",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\FlareTech.csproj",
+              "RelativeDocumentMoniker": "FlareTech.csproj",
+              "ToolTip": "F:\\Sujan\\FlareTech\\FlareTech.csproj",
+              "RelativeToolTip": "FlareTech.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T10:07:31.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SubscriptionController.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Controllers\\SubscriptionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SubscriptionController.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Controllers\\SubscriptionController.cs",
+              "RelativeToolTip": "Controllers\\SubscriptionController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:30:56.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20241115125430_InitialCreate.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Migrations\\20241115125430_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241115125430_InitialCreate.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Migrations\\20241115125430_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20241115125430_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:54:31.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Views\\Subscription\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Subscription\\Create.cshtml",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Views\\Subscription\\Create.cshtml",
+              "RelativeToolTip": "Views\\Subscription\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T13:00:31.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\Sujan\\FlareTech\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T10:54:22.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:42:38.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowCoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T11:23:26.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20241115114202_InitialCreate.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Migrations\\20241115114202_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241115114202_InitialCreate.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Migrations\\20241115114202_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20241115114202_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:42:02.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20241115114920_SeedFeatures.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Migrations\\20241115114920_SeedFeatures.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241115114920_SeedFeatures.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Migrations\\20241115114920_SeedFeatures.cs",
+              "RelativeToolTip": "Migrations\\20241115114920_SeedFeatures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:49:21.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PaymentStatus.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Models\\Enums\\PaymentStatus.cs",
+              "RelativeDocumentMoniker": "Models\\Enums\\PaymentStatus.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Models\\Enums\\PaymentStatus.cs",
+              "RelativeToolTip": "Models\\Enums\\PaymentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:48:08.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Views\\Subscription\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Subscription\\Index.cshtml",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Views\\Subscription\\Index.cshtml",
+              "RelativeToolTip": "Views\\Subscription\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T11:15:38.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Views\\Plan\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Plan\\Index.cshtml",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Views\\Plan\\Index.cshtml",
+              "RelativeToolTip": "Views\\Plan\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T11:12:48.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Sujan\\FlareTech\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\Sujan\\FlareTech\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:18:31.25Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

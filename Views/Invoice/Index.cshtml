@@ -1,0 +1,39 @@
+﻿@model IEnumerable<FlareTech.Models.Invoice>
+
+@{
+    ViewData["Title"] = "Invoices";
+}
+
+<h1>Invoices</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Invoice ID</th>
+            <th>Customer</th>
+            <th>Subscription</th>
+            <th>Amount</th>
+            <th>Invoice Date</th>
+            <th>Due Date</th>
+            <th>Payment Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var invoice in Model)
+        {
+            <tr>
+                <td>@invoice.InvoiceId</td>
+                <td>@invoice.Subscription.Customer.CompanyName</td>
+                <td>@invoice.Subscription.Plan.PlanName</td>
+                <td>@invoice.Amount.ToString("C")</td>
+                <td>@invoice.InvoiceDate.ToShortDateString()</td>
+                <td>@invoice.DueDate.ToShortDateString()</td>
+                <td>@invoice.PaymentStatus</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@invoice.InvoiceId" class="btn btn-primary btn-sm">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

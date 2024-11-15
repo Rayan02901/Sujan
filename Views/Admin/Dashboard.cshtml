@@ -1,0 +1,35 @@
+﻿// Views/Admin/Dashboard.cshtml
+@model DashboardViewModel
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Dashboard</h1>
+    <div class="row mt-4">
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">
+                    <h4>Total Customers</h4>
+                    <h2>@Model.TotalCustomers</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-success text-white mb-4">
+                <div class="card-body">
+                    <h4>Active Subscriptions</h4>
+                    <h2>@Model.TotalActiveSubscriptions</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-info text-white mb-4">
+                <div class="card-body">
+                    <h4>Total Revenue</h4>
+                    <h2>@Model.TotalRevenue.ToString("C")</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+﻿// Views/Plan/Index.cshtml
+@model IEnumerable<Plan>
+@{
+    ViewData["Title"] = "Plans";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Plans</h1>
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New Plan</a>
+    </p>
+    <div class="card mb-4">
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.PlanName)</th>
+                        <th>@Html.DisplayNameFor(model => model.BasePrice)</th>
+                        <th>Features</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.PlanName)</td>
+                            <td>@Html.DisplayFor(modelItem => item.BasePrice)</td>
+                            <td>
+                                @string.Join(", ", item.PlanFeatures
+                                         .Select(pf => pf.Feature.FeatureName))
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.PlanId"
+                                   class="btn btn-sm btn-primary">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.PlanId"
+                                   class="btn btn-sm btn-info">Details</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

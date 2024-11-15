@@ -1,0 +1,56 @@
+﻿@model FlareTech.Models.Plan
+
+@{
+    ViewData["Title"] = "Create Plan";
+}
+
+<h1>Create Plan</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PlanName" class="control-label"></label>
+                <input asp-for="PlanName" class="form-control" />
+                <span asp-validation-for="PlanName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="BasePrice" class="control-label"></label>
+                <input asp-for="BasePrice" class="form-control" />
+                <span asp-validation-for="BasePrice" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label">Features</label>
+                <select name="selectedFeatures" class="form-control" multiple>
+                    @foreach (var feature in (IEnumerable<SelectListItem>)ViewBag.SelectedFeatures)
+                    {
+                        <option value="@feature.Value">@feature.Text</option>
+                    }
+                </select>
+                <small class="form-text text-muted">Hold Ctrl to select multiple features</small>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Create</button>
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

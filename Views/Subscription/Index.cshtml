@@ -1,0 +1,47 @@
+﻿// Views/Subscription/Index.cshtml
+@model IEnumerable<Subscription>
+@{
+    ViewData["Title"] = "Subscriptions";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Subscriptions</h1>
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New Subscription</a>
+    </p>
+    <div class="card mb-4">
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Customer</th>
+                        <th>Plan</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Customer.CompanyName</td>
+                            <td>@item.Plan.PlanName</td>
+                            <td>@item.StartDate.ToShortDateString()</td>
+                            <td>@(item.EndDate?.ToShortDateString() ?? "Active")</td>
+                            <td>@(item.IsActive ? "Active" : "Inactive")</td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.SubscriptionId"
+                                   class="btn btn-sm btn-primary">Edit</a>
+                                <a asp-controller="Invoice" asp-action="Generate"
+                                   asp-route-id="@item.SubscriptionId"
+                                   class="btn btn-sm btn-success">Generate Invoice</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
